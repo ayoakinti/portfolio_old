@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  padding: 30px;
+  background-image: url("./images/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: rgb(250, 250, 250); */
+}
+.nav {
+  display: flex;
+  margin-bottom: 40px;
+}
+.nav-buttons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-title {
+  width: 50%;
+}
+.btn {
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 7px 20px;
+}
+.intro{
+    background-image: url("./images/bg.jpg");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.intro-card{
+    width: 60%;
+    margin: auto;
+}
+.opening-page {
+  width: 60%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.title {
+  color: rgba(14, 152, 194, 0.76);
+}
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+h5 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  text-align: justify;
+}
+.projects{
+  margin-bottom: 20px;
+
+}
+.projects-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 30px 20px;
+  width: 80%;
+  margin: auto;
+}
+.project-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.project-card {
+  border: 1px solid;
+  border-radius: 12px;
+  /* padding: 10px; */
+  height: 450px;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-around;
+}
+.project-img {
+  border-radius: 12px;
+  height: 300px;
+}
+.project-desc {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.projects-heading {
+  font-size: 40px;
+  text-align: center;
+}
+.contact {
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+.contact-group {
+  display: flex;
+  justify-content: space-around;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 6px;
+  padding: 3px;
+}
+.form-div{
+    width: 30%;
+}
+.form-control{
+    padding: 7px;
+}
+.form-btn{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
