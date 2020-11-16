@@ -38,13 +38,14 @@ body {
 }
 .btn {
   border-radius: 20px;
+  color: black;
   border: 1px solid;
   padding: 7px 20px;
   text-decoration: none;
   outline: none;
 }
 .btn:hover {
-  background-color: aqua;
+  background-color: grey;
 }
 .intro {
   background-image: url("./images/bg.jpg");
@@ -156,7 +157,8 @@ h5 {
   height: 450px;
 }
 .calc{
-  padding: 60px;
+  padding: 0 60px;
+  padding-bottom: 0;
   display: flex;
   justify-content: center;
 }
