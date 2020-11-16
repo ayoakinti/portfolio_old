@@ -4,84 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Ayomide Akintimehin's Portfolio</title>
   </head>
   <body>
     <div class="container">
       <div class="nav">
-        <div class="nav-title">
-          <h2></h2>
-        </div>
         <div class="nav-buttons">
-          <button class="btn"><a href="#opening-page">About Me</a></button>
-          <button class="btn"><a href="#projects">Projects</a></button>
-          <button class="btn"><a href="#contact">Contact me</a></button>
+          <a class="btn" href="#opening-page">About Me</a>
+          <a class="btn" href="#projects">Projects</a>
+          <a class="btn" href="#contact">Contact me</a>
         </div>
       </div>
       <div class="intro">
         <div class="intro-card">
-          <h1>Hello, I'm Ayomide, a Front End Engineer</h1>
-          <h2>
+          <h1 class="intro-title">
+            Hello, I'm Ayomide, a Front End Engineer
+          </h1>
+          <h2 class="intro-subtitle">
             Still relatively new to the Software Engineering journey, but I love
-            what I see already. I really just want to build things and solve problems.
+            what I see already. I really just want to build things and solve
+            problems.
           </h2>
         </div>
       </div>
-      <div class="opening-page" id="opening-page">
+      <div class="opening-page show-on-scroll" id="opening-page">
+        <div style="margin-bottom: 55px;"></div>
         <h1 class="title">Ayomide Akintimehin</h1>
-        <h5>
-          I am a results-oriented Front-end developer with less than a year of
-          experience, dedicated to creating and optimizing interactive,
-          user-friendly, and feature-rich web applications. I am a very smart
-          individual with a great critical thinking ability and great
-          communication skills, very zealous about providing solutions to
-          existing and incoming problems.
-        </h5>
-        <h5>
-          I have a very fast learning ability, and a great passion and
-          commitment to improving as a software developer, which has shown
-          tremendously in the feats I have been able to achieve within a very
-          short period of time.
-        </h5>
-        <h5>
-            Due to my zeal and passion to become a very good developer, I started an algorithms specialization course on Coursera (6 courses). I have completed the first one. <a href="https://www.coursera.org/account/accomplishments/records/9YJBBMXSD5LB" target="blank">Certificate.</a></h5>
-        </h5>
-        <h5>
-            I have a strong desire to become so good, good enough to work for the best tech companies in the world. So, I am very open to opportunities that would bring me closer to my goal, and very willing to relocate or work remotely.
-        </h5>
+        <div class="opening-content">
+          <h5>
+            I am a results-oriented Front-end developer with less than a year of
+            experience, dedicated to creating and optimizing interactive,
+            user-friendly, and feature-rich web applications. I am a very smart
+            individual with a great critical thinking ability and great
+            communication skills, very zealous about providing solutions to
+            existing and incoming problems.
+          </h5>
+          <h5>
+            I have a very fast learning ability, and a great passion and
+            commitment to improving as a software developer, which has shown
+            tremendously in the feats I have been able to achieve within a very
+            short period of time.
+          </h5>
+          <h5>
+              Due to my zeal and passion to become a very good developer, I started an algorithms specialization course on Coursera (6 courses). I have completed the first one. <a href="https://www.coursera.org/account/accomplishments/records/9YJBBMXSD5LB" target="blank">Certificate.</a></h5>
+          </h5>
+          <h5>
+              I have a strong desire to become so good, good enough to work for the best tech companies in the world. So, I am very open to opportunities that would bring me closer to my goal, and very willing to relocate or work remotely.
+          </h5>
+        </div>
       </div>
-      <div class="projects" id="projects">
-        <h2 class="projects-heading">Some of my projects</h2>
+      <div class="projects show-on-scroll" id="projects">
+        <div style="margin-bottom: 55px;">.</div>
+        <h2 class="projects-heading">Some of my works:</h2>
         <div class="projects-group">
           <div class="project-card">
             <img
               class="project-img"
-              src="./images/bg1.jpg"
+              src="./images/gricd.png"
               alt="bg"
               width="100%"
             />
             <div class="project-desc">
-              <h3 class="project-title">Gricd Site</h3>
+              <h3 class="project-title">Gricd Web Application.</h3>
               <div class="btn-group">
-                <button class="btn">
-                  <a
-                    class="project-link"
-                    target="blank"
-                    href="https://beta.gricd.com"
-                    >Live Site</a
-                  >
-                </button>
-                <button class="btn">Code</button>
+                <a
+                  class="project-link btn"
+                  target="blank"
+                  href="https://beta.gricd.com"
+                  >Live Site</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="calc">
+              <img
+              class="project-img"
+              src="./images/calculator.png"
+              alt="bg"
+              width="70%"
+            />
+            </div>
+            <div class="project-desc">
+              <h3 class="project-title">A Simple Calculator Application.</h3>
+              <div class="btn-group">
+                <a
+                  class="btn project-link"
+                  target="blank"
+                  href="https://mini-calculator-appl.netlify.app/"
+                  >Live Site</a
+                >
+                <a
+                  class="btn project-link"
+                  target="blank"
+                  href="https://github.com/iamayoakinti/calculator/tree/dev"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              class="project-img"
+              src="./images/algorithms.png"
+              alt="bg"
+              width="100%"
+            />
+            <div class="project-desc">
+              <h3 class="project-title">Algorithms.</h3>
+              <div class="btn-group">
+                <a
+                  class="btn project-link"
+                  target="blank"
+                  href="https://github.com/iamayoakinti/algorithms/tree/dev"
+                  >GitHub</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="contact" id="contact">
+      <div class="contact show-on-scroll" id="contact">
+        <div style="margin-bottom: 55px;"></div>
         <h2 class="projects-heading">Contact Me!</h2>
         <div class="contact-group">
           <div class="form-div">
-            <form>
+            <form action="https://getform.io/f/44a48cb2-3f9e-46a4-8796-15512b40d6a0" method="POST"
+            enctype="multipart/form-data"  target="_blank">
               <div class="form-group">
                 <label for="name">Name</label>
                 <input class="form-control" type="text" name="name" id="name" />
@@ -109,11 +162,24 @@
               </div>
             </form>
           </div>
-          <div>
+          <div class="contact-div">
             <h3>Call/Message</h3>
             <h5>(+234)814- 011- 3415</h5>
             <h3>Email</h3>
             <h5>ayoakinti@gmail.com</h5>
+            <div class="logos">
+              <a
+              target="blank"
+              href="https://www.linkedin.com/in/ayomide-akintimehin-b78594139/"
+              ><img src="./images/linkedin.png" width="30px" height="30px"
+            /></a>
+            <a target="blank" href="https://github.com/iamayoakinti"
+              ><img src="./images/github.png" width="30px" height="30px"
+            /></a>
+            <a target="blank" href="https://twitter.com/iamayoakinti"
+              ><img src="./images/twitter.png" width="30px" height="30px"
+            /></a>
+            </div>
           </div>
         </div>
       </div>
